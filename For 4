@@ -1,0 +1,14 @@
+#ingresan 5 numeros enteros.
+#el programa debe tener la suma y el promedio de los números positivos ingresados. 
+
+suma=0
+cont=0
+for i in range(5)
+    num=int(input('Ingrese un numero: '))
+    if num>0:
+        suma=suma+num   #acumulador
+        contador=cont+1  #contador
+
+print('La suma de los numeropositivos es: ',suma)
+promedio=suma/cont
+print('El promedio de: ', promedio)
