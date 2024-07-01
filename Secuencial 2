@@ -1,0 +1,10 @@
+#Notas de alumnos. SE debe calcular el promedio
+
+print('Ingrese nota del primer alumno: ')
+nota 1=float(input())
+print('Ingrese nota del segundo alumno: ')
+nota2=float(input())
+
+promedio=(nota1+nota2)/2
+
+print('El promedio de las notas ingresadas es:', promedio)
