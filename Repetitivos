@@ -1,5 +1,11 @@
 #for (para) Repite instrucciones una determinada cantidad de veces
 #while(mientras) Repite una cantidad indeterminada
 
+suma=0
 for i in range(5):
-    print(i)
+    num=int(input('ingrese numeros: '))
+    suma=suma+num  #acumulador que se incrementa con otra variable 
+
+print('la suma de los numeros es: '), suma)
+promedio=suma/5
+print('el prometo es de : ', promedio)
