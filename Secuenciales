@@ -1,0 +1,14 @@
+#Ingresando soludo y nombre y pedirle al programa que lo lea
+print('Ingrese nombre:' )  #Instrucciones de salida 
+nombre=input()      #Instrucciones de salida
+
+print('Buen día ', nombre)
+edad= int(input())  
+próximo=edad+1   #Asignación. 
+
+print('El año que viene usted tendra ',proximo, 'años'.) #el nombre de la variable empieza siempre con una letra 
+
+print('Ingrese su sueldo: ')
+sueldo=float(input())
+jubi=sueldo*11/100
+print('Usted tendrá una jubilación de:', jubi)
