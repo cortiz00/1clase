@@ -1,0 +1,15 @@
+#Condicionales if (si condición)
+'Simple'
+'Doble'
+'Anidado'
+'Compuesto'
+
+#CONDICIONAL SIMPLE
+#Ingresa la velocidad de un vehiculo y el programa debe mostrar un mensaje que diga
+#exceso de velocidad si supera los 120km/h
+
+print('Ingrese velocidad del vehiculo: ')
+velocidad = int(input())
+if:
+  velocidad>120     #identación o tabulación
+  print('Exceso de velocidad')
