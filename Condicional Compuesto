@@ -1,0 +1,15 @@
+#Se ingresa la nota de un alumno. 
+#Validar que la misma se encuentre entre 1-10
+
+print('Ingrese nota del alumno. ')
+nota= float(input())
+
+if nota>=1 and nota <=10:
+  print('La nota es correcta')
+else 
+  print('Nota fuera de intervalo')
+
+if nota<1 or nota >10:
+  print('La nota es incorrecta')
+else 
+  print('Nota dentro del intervalo')
