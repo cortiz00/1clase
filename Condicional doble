@@ -1,0 +1,10 @@
+#CONDICIONAL DOBLE
+#Ingresar la edad de una persona el programa debe mostrar un mensaje
+#que diga si es mayor o menor de edad
+
+print('Ingrese edad: ')
+int(input())
+if edad>=18:
+  print('Es mayor de edad')
+else:
+  print('Es menor de edad')
