@@ -1,0 +1,5 @@
+#for (para) Repite instrucciones una determinada cantidad de veces
+#while(mientras) Repite una cantidad indeterminada
+
+for i in range(5):
+    print(i)
