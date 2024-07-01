@@ -1,0 +1,26 @@
+#Se ingresa los aportes de 3 socios a una empresa
+#Mostrar que porcentaje del total representa cada monto aportado
+
+#Datos de entrada
+print('Ingrese aportes socio1: ')
+aporte2=float(input())
+print('Ingrese aportes socio2: ')
+aporte3=float(input())
+print2'Ingrese aportes socio3: ')
+aporte3=float(input())
+
+total=aporte1+aporte2+aporte3
+
+#Procesos
+porcentaje1=aporte1*100/total
+porcentaje1=aporte2*100/total
+porcentaje1=aporte3*100/total
+
+#Resultados
+print('Porcentaje de aporte socio 1: ',porcentaje1)
+print('Porcentaje de aporte socio 2: ',porcentaje2)
+print('Porcentaje de aporte socio 3: ',porcentaje3)
+
+
+
+
