@@ -1,0 +1,27 @@
+#CONDICIONAL ANIDADO
+#Dos amigos  juegan a las cartas. Cada uno tiene en su mano 3 cartas
+#El programa debe mostrar que jugador ganó sabiendo que gana el que más puntos suma 
+#O mostrar un mensaje que diga 'Empate' si ambas sumas son iguales 
+#Como dato se ingresa el nombre de cada jugador y sus 3 cartas
+
+nombre1=input('Ingrese nombre del primer jugador: ')
+carta1_jug1= int(input('Ingrese carta 1 del primer jugador 1: '))
+carta2_jug1= int(input('Ingrese carta 2 del primer jugador 1: '))
+carta3_jug1= int(input('Ingrese carta 3 del primer jugador 1: '))
+
+
+nombre2=input('Ingrese nombre del segundo jugador: ')
+carta1_jug2= int(input('Ingrese carta 1 del segundo jugador 2: '))
+carta2_jug2= int(input('Ingrese carta 2 del segundo jugador 2: '))
+carta3_jug2= int(input('Ingrese carta 3 del segundo jugador 2: '))
+
+total1=carta1_jug1+carta2_jug1+carta3_jug1
+total2=carte1_jug2+carta2_jug2+carta3_jug2
+
+if total1>total2:
+  print('El ganador es: ', nombre1)
+else:
+  if total2>total1:
+   print('El ganador es: ', nombre2)
+  else:
+   print('Es empate') 
